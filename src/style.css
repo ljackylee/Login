@@ -109,7 +109,7 @@ input {
 
 .right_intro {
   width: 67%;
-  background-image: url('img/image.jpeg');
+  background-image: url(../public/img/image.jpeg);
   background-size: cover;
   background-position: center;
   position: relative;
