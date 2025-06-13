@@ -71,6 +71,7 @@ main {
 }
 
 .login_form_link {
+  border: none;
   color: #000;
 }
 
@@ -93,6 +94,31 @@ input {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.radio_group {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.radio_group_p {
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.radio_options {
+  display: flex;
+  gap: 20px;
+}
+
+.radio_label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
 }
 
 .google_button {
